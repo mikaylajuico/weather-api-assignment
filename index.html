@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather API Assignment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Weather Finder</h1>
+
+  <label for="locationSelect">Choose a location:</label>
+  <select id="locationSelect">
+    <option value="Toronto">Toronto</option>
+    <option value="Vancouver">Vancouver</option>
+    <option value="Montreal">Montreal</option>
+    <option value="New York">New York</option>
+  </select>
+
+  <button id="getWeatherBtn">Get Weather</button>
+
+  <div id="weatherResult">
+    <h2 id="location"></h2>
+    <p id="temperature"></p>
+    <p id="condition"></p>
+    <img id="weatherIcon" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
